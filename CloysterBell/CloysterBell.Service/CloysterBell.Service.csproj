@@ -49,6 +49,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CloysterBell.BusinessOperations\CloysterBell.BusinessOperations.csproj">
+      <Project>{79233F71-847F-4BD5-AFEE-3C6E32A755D8}</Project>
+      <Name>CloysterBell.BusinessOperations</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CloysterBell.Contract\CloysterBell.Contract.csproj">
       <Project>{019AD796-A0B0-49AA-B453-CE0527CE592C}</Project>
       <Name>CloysterBell.Contract</Name>

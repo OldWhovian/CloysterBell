@@ -24,13 +24,14 @@ namespace CloysterBell
                 _client = new TcpClient();
 
                 _config = _loadConfigFile.GetConfigFromFile();
-                _client.ReceiveBufferSize = 2 * 1024 * 1024;
+                _client.ReceiveBufferSize = _config.BufferSize;
                 _client.Connect(_config.ServerName, _config.ServerPort);
 
                 _stream = _client.GetStream();
                 _networkStream = new NetworkStream(_client.Client);
                 _writer = new StreamWriter(_stream);
                 _reader = new StreamReader(_stream);
+                _stream.
             }
             catch (Exception e)
             {

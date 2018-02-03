@@ -10,5 +10,7 @@ namespace CloysterBell.BusinessOperations
         {
             _reader = reader;
         }
+
+
     }
 }

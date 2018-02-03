@@ -1,6 +1,7 @@
 ﻿{
   "ServerName": "irc.chat.twitch.tv",
   "ServerPort": 6667,
+  "BufferSize":  2097152,
   "Username": "INSERT USERNAME HERE",
   "ClientSecret": "INSERT PASSWORD HERE",
   "Channel": "INSERT CHANNEL NAME"
