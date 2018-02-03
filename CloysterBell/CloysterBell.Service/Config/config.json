@@ -1,0 +1,7 @@
+﻿{
+  "ServerName": "irc.chat.twitch.tv",
+  "ServerPort": 6667,
+  "Username": "INSERT USERNAME HERE",
+  "ClientSecret": "INSERT PASSWORD HERE",
+  "Channel": "INSERT CHANNEL NAME"
+}
