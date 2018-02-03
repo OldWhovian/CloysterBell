@@ -1,0 +1,5 @@
+#ignore .vs code
+CloysterBell/.vs/
+
+#ignore obj file
+CloysterBell/CloysterBell/obj/
